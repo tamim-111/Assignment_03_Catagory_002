@@ -29,30 +29,44 @@
 </head>
 
 <body class="font-display">
-    <header class=" bg-linear-to-r from-[#FFFFFF] to-[#EFEBE3] mt-10">
+    <header class="sm:mt-10 bg-gradient-to-b from-cyan-500 to-blue-500">
         <!-- Nav Section -->
-        <section class="flex justify-around">
+        <section class="flex sm:justify-around items-center justify-between mx-6 my-3">
             <!-- Nav Header -->
             <div>
-                <img src="c2-assets/logo-header.png" alt="">
+                <img class="hidden sm:block" src="c2-assets/logo-header.png" alt="">
+                <img class="block sm:hidden" src="c2-assets/logo-header-sm.png" alt="">
             </div>
             <!-- Nav Main -->
-            <div>
+            <div class="hidden sm:block">
                 <ul class="flex gap-8 text-xl">
                     <li><a href="#">Product</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-             <!-- Nav Footer -->
-            <div>
-                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+            <!-- Nav Footer -->
+            <div class="hidden sm:block">
+                <i class="fa-solid fa-magnifying-glass text-2xl "></i>
                 <i class="fa-solid fa-cart-shopping mx-6 text-2xl"></i>
                 <button class="border border-lime-600 rounded-lg px-8 py-3 text-xl mr-3">Login</button>
                 <button class="border border-lime-600 rounded-lg px-8 py-3 text-xl bg-lime-600">Register</button>
             </div>
+            <i class="fa-solid fa-bars text-3xl text-lime-600 block sm:hidden"></i>
         </section>
+        <hr class="border-lime-600 block sm:hidden">
         <!-- Hero Section -->
+        <section class="flex flex-col justify-center items-center text-center my-12 sm:mt-24">
+            <div>
+                <h1 class="text-3xl font-semibold mb-4 sm:text-6xl sm:mb-8">Freshness <span class="text-lime-600">You Can<br>Count</span>On,
+                    Prices<br class="block sm:hidden">You’ll Love!</h1>
+                <p class="sm:text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br>staples, we’ve got you
+                    covered every day!</p>
+            </div>
+            <div>
+                <img src="c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </section>
     </header>
     <main>
         <!-- Services Section -->
