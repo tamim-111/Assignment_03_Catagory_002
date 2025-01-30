@@ -1,11 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nature's Platter</title>
+    <!-- FabIcon -->
+    <link rel="shortcut icon" href="c2-assets/logo-header.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Kit -->
+    <script src="https://kit.fontawesome.com/8b4b2630f6.js" crossorigin="anonymous"></script>
+    <!-- DaisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8b4b2630f6.js" crossorigin="anonymous"></script>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- Custom Tailwind CSS -->
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+          --font-display: "Sora", "serif";
+        }
+      </style>
 </head>
-<body>
-    
+
+<body class="font-display">
+    <header class=" bg-linear-to-r from-[#FFFFFF] to-[#EFEBE3] mt-10">
+        <!-- Nav Section -->
+        <section class="flex justify-around">
+            <!-- Nav Header -->
+            <div>
+                <img src="c2-assets/logo-header.png" alt="">
+            </div>
+            <!-- Nav Main -->
+            <div>
+                <ul class="flex gap-8 text-xl">
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+             <!-- Nav Footer -->
+            <div>
+                <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                <i class="fa-solid fa-cart-shopping mx-6 text-2xl"></i>
+                <button class="border border-lime-600 rounded-lg px-8 py-3 text-xl mr-3">Login</button>
+                <button class="border border-lime-600 rounded-lg px-8 py-3 text-xl bg-lime-600">Register</button>
+            </div>
+        </section>
+        <!-- Hero Section -->
+    </header>
+    <main>
+        <!-- Services Section -->
+        <!-- Popular Products Section -->
+        <!-- Arrival & Offers Section -->
+    </main>
+    <footer>
+        <!-- Get Grocery News Section -->
+        <!-- Main Footer Section -->
+    </footer>
 </body>
+
 </html>
