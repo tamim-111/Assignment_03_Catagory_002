@@ -22,7 +22,7 @@
     <!-- Custom Tailwind CSS -->
     <style type="text/tailwindcss">
         @theme {
-          --color-clifford: #da373d;
+          --color-clifford: rgba(17, 17, 17, 0.1);
           --font-display: "Sora", "serif";
         }
       </style>
@@ -61,7 +61,7 @@
                 <h1 class="text-3xl font-semibold mb-4 sm:text-6xl sm:mb-8">Freshness <span class="text-lime-600">You
                         Can<br>Count</span>On,
                     Prices<br class="block sm:hidden">You’ll Love!</h1>
-                <p class="sm:text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to
+                <p class="sm:text-xl p-4">Shop your daily essentials at unbeatable prices. From fresh produce to
                     pantry<br>staples, we’ve got you
                     covered every day!</p>
             </div>
@@ -73,7 +73,7 @@
     <main>
         <!-- Services Section -->
         <section class="sm:my-36">
-            <h2 class="m-5 font-semibold sm:text-4xl text-2xl text-lime-800 sm:ml-36 sm:mb-12">Services</h2>
+            <h2 class="m-5 font-semibold sm:text-4xl text-2xl text-lime-600 sm:ml-36 sm:mb-12">Services</h2>
             <div class="sm:flex sm:mx-36 sm:justify-center">
                 <div class="flex flex-col items-center bg-[#EFEBE3] rounded-xl m-5 text-center sm:w-2/6">
                     <div class="bg-white rounded-full my-5">
@@ -101,7 +101,145 @@
                 </div>
             </div>
         </section>
+
         <!-- Popular Products Section -->
+        <section class="py-12 px-4 bg-red-100 sm:px-36">
+            <!-- card banner -->
+            <div>
+                <h3 class="font-semibold text-2xl text-lime-600">Popular Products</h3>
+            </div>
+            <div class="sm:flex sm:justify-between items-center gap-x-6">
+                <div class="bg-slate-400 my-8 pl-6 rounded-lg sm:w-[30vw]">
+                    <h4 class="text-2xl text-white pt-11 pb-4 sm:text-3xl">30% off</h4>
+                    <p class="text-base">Discover a world of treats, toys, and<br> essentials handpicked for</p>
+                    <button class="bg-white py-2 px-6 rounded-md mt-4">Buy Now</button>
+                    <img class=" -mt-[8vh] pl-28 sm:pl-36" src="c2-assets/vegetable-offer.png" alt="">
+                </div>
+                <!-- card items -->
+                <div class="grid grid-cols-2 gap-3 sm:gap-6 sm:grid-cols-3 sm:w-[70%]">
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg flex py-3 px-3 sm:gap-x-3 invisible sm:visible">
+                        <div class="bg-[#EFEBE3] w-2/6 rounded-md ">
+                            <img class="mx-auto my-3 sm:h-16 sm:w-16" src="c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="pl-3">
+                            <div class="flex gap-x-3">
+                                <i class="text-yellow-400 fa-solid fa-star"></i>
+                                <p>4.5</p>
+                            </div>
+                            <h4 class="sm:font-semibold sm:text-xl">Onion 1KG</h4>
+                            <p class="sm:font-medium">$39.99</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
         <!-- Arrival & Offers Section -->
     </main>
     <footer>
